@@ -1,0 +1,12 @@
+n=int(input())
+d={}
+k=int(input())
+while(i*i<=K):
+    if((k%i==0) and (n/i==0)):
+       v='yes'
+       d[k]=v
+     else:
+       v='no'
+       d[k]=v
+      i=i+1
+ print(d)
