@@ -1,0 +1,12 @@
+n=int(input())
+d={}
+for i in range(n):
+    name=input("enter the student name:")
+    marks=int(input("enter the students marks:"))
+    d[name]=marks
+print(d)
+print("enter the std name to delete")
+name1=input("enter student name")
+d.pop(name1)
+print(d)
+    
