@@ -1,0 +1,6 @@
+import re
+email=input('please  enter email address:')
+ereg="(\W+)@((\W+\.)+(com))"
+r=re.math=ch(ereg,email)
+print(r.group(1))
+print(r.group(2))
